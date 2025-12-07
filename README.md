@@ -7,8 +7,6 @@
 ## 🔍 Architecture 
 <img width="1153" height="267" alt="image" src="https://github.com/user-attachments/assets/d6e67c19-ebf0-4318-ab2b-573529dbaf02" />
 
----
-
 ## 🚀 Fonctionnalités
 
 - Ajout dynamique de documents
@@ -33,17 +31,25 @@
 ---
 ##⚡ Installation
 
-##Cloner le projet :
+# 1️⃣ Cloner le projet
 git clone https://github.com/farahkouki/RAG-Chatbot-Dynamique.git
 cd RAG-Chatbot-Dynamique
-##Créer un environnement virtuel :
+
+# 2️⃣ Créer un environnement virtuel
 python -m venv .venv
-source .venv/bin/activate # Linux/Mac
-.venv\Scripts\activate    # Windows
-##Installer les dépendances :
+
+# 3️⃣ Activer l'environnement virtuel
+# Sur Windows :
+.venv\Scripts\activate
+# Sur Linux / Mac :
+# source .venv/bin/activate
+
+# 4️⃣ Installer les dépendances
 pip install -r requirements.txt
-##Lancer l’application :
+
+# 5️⃣ Lancer l’application Streamlit
 streamlit run app.py
+
 ---
 
 ##📜 Licence
