@@ -1,0 +1,3 @@
+Bienvenue sur le chatbot RAG ! 
+Ce chatbot peut répondre à vos questions en utilisant les documents fournis. 
+Vous pouvez ajouter vos propres fichiers texte ici pour enrichir la base.
