@@ -2,7 +2,7 @@
 > Un chatbot intelligent basé sur **RAG (Retrieval-Augmented Generation)** avec **Streamlit**, **ChromaDB**, et **Sentence Transformers**.
 
 <img width="953" height="869" alt="image" src="https://github.com/user-attachments/assets/2afce272-1cfd-4e50-8f8a-c44e800ed2f4" />
----
+
 
 ## 🔍 Architecture 
 <img width="1153" height="267" alt="image" src="https://github.com/user-attachments/assets/d6e67c19-ebf0-4318-ab2b-573529dbaf02" />
@@ -28,25 +28,20 @@
 | ![Sentence Transformers](https://img.shields.io/badge/Sentence%20Transformers-5A5A5A?style=for-the-badge) | Modèle NLP pour similarité |
 | ![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white) | Gestion du code |
 
----
 ##⚡ Installation
 
 # 1️⃣ Cloner le projet
 git clone https://github.com/farahkouki/RAG-Chatbot-Dynamique.git
 cd RAG-Chatbot-Dynamique
-
 # 2️⃣ Créer un environnement virtuel
 python -m venv .venv
-
 # 3️⃣ Activer l'environnement virtuel
 # Sur Windows :
 .venv\Scripts\activate
 # Sur Linux / Mac :
 # source .venv/bin/activate
-
 # 4️⃣ Installer les dépendances
 pip install -r requirements.txt
-
 # 5️⃣ Lancer l’application Streamlit
 streamlit run app.py
 
